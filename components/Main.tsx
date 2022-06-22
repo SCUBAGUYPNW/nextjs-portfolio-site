@@ -11,7 +11,7 @@ const Main = () => {
                             Let's build something together
                         </p>
                         <h1 className='py-4 text-gray-700 '>
-                            Hello, I am <span className='text-[#5191e5]'> Mitch</span>.
+                            Hello, I am <span className='text-[#515be5]'> Mitch</span>.
                          </h1>
                         <h1 className='py-2 text-gray-700 '>
                         A fullstack web developer.

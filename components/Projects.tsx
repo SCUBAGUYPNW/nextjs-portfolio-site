@@ -10,7 +10,7 @@ import ProjectItem from "./ProjectItem";
 
 function Projects() {
   return (
-    <div className="w-full">
+    <div id="projects" className="w-full">
       <div className="max-width-[1240] mx-auto px-2 py-16">
         <p className="text-xl tracking-widest uppercase text-[#515be5]">
           Projects

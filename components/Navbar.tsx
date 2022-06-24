@@ -13,7 +13,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="fixed w-full h-20  shadow-xl z-[100]">
+    <div className="fixed w-full h-20  shadow-md z-[100]">
       <div className=" bg-zinc-300 flex justify-between items-center w-full h-full px-2 2xl:px-16 mr-10">
         <Image
           src="/../public/assets/ads.png"

@@ -27,6 +27,6 @@
     @apply cursor-pointer;
   }
   button {
-    @apply shadow-xl shadow-gray-700 rounded-xl uppercase bg-gradient-to-r from-black to-gray-600 text-black;
+    @apply shadow-md shadow-gray-700 rounded-xl uppercase bg-gradient-to-r from-black to-gray-600 text-black;
   }
 }

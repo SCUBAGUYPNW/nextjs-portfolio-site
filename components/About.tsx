@@ -12,7 +12,7 @@ const About = () => {
             Check out some of my projects.
           </p>
         </div>
-        <div className="w-full h-auto m-auto shadow-lg shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in-duration-300">
+        <div className="w-full h-auto m-auto shadow-lg shadow-yellow-100 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in-duration-300">
           <img
             className="rounded-xl"
             src="https://i.imgur.com/xnLT6jQ.jpg"

@@ -24,12 +24,18 @@ function Projects() {
             projectUrl="/project1"
           />
           <ProjectItem
+            title="RPG Turn Tracker"
+            backgroundImg={rpgTurnTracker}
+            technologies="C++ Arduino Platform I/O"
+            projectUrl="/project2"
+          />
+          {/* <ProjectItem
             title="Project 2"
             backgroundImg={projectTwo}
             technologies="JavaScript MERN CRUD2"
             projectUrl="/project2"
-          />
-          <ProjectItem
+          /> */}
+          {/* <ProjectItem
             title="Project 3"
             backgroundImg={projectThree}
             technologies="JavaScript MERN CRUD3"
@@ -46,7 +52,7 @@ function Projects() {
             backgroundImg={rpgTurnTracker}
             technologies="C+ Arduino"
             projectUrl="/rpgTurnTracker"
-          />
+          /> */}
         </div>
       </div>
     </div>

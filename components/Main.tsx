@@ -19,17 +19,22 @@ const Main = () => {
             opportunities to showcase what I can do.
           </p>
           <div className="flex items-center justify-between m-w-[330px] m-auto py-4">
-            <div className="rounded-full bg-zinc-500 shadow-md shadow-black p-6 cursor-pointer hover:scale-105 ease-in duration-300">
-              <FaLinkedinIn />
+            <div className="ml-3 mr-2 rounded-full bg-zinc-500 shadow-md shadow-black p-6 cursor-pointer hover:scale-105 ease-in duration-300">
+              <a href="https://www.linkedin.com/in/mitchel-hall-software-dev/">
+                <FaLinkedinIn />
+              </a>
             </div>
-            <div className="rounded-full bg-zinc-500 shadow-md shadow-black p-6 cursor-pointer hover:scale-105 ease-in duration-300">
-              <FaGithub />
+            <div className="ml-2 rounded-full bg-zinc-500 shadow-md shadow-black p-6 cursor-pointer hover:scale-105 ease-in duration-300">
+              <a href="https://github.com/SCUBAGUYPNW">
+                <FaGithub />
+              </a>
             </div>
-            <div className="rounded-full bg-zinc-500 shadow-md shadow-black p-6 cursor-pointer hover:scale-105 ease-in duration-300">
-              <AiOutlineMail />
-            </div>
-            <div className="rounded-full bg-zinc-500 shadow-md shadow-black p-6 cursor-pointer hover:scale-105 ease-in duration-300">
-              <BsFillPersonLinesFill />
+            <div className="ml-4 rounded-full bg-zinc-500 shadow-md shadow-black p-6 cursor-pointer hover:scale-105 ease-in duration-300">
+              <AiOutlineMail
+                onClick={() =>
+                  window.open("mailto:mitch.hall@artificerdevsolutions.com")
+                }
+              />
             </div>
           </div>
         </div>

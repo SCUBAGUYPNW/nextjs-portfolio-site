@@ -31,6 +31,6 @@ html {
     @apply cursor-pointer;
   }
   button {
-    @apply shadow-md shadow-gray-700 rounded-xl uppercase bg-gradient-to-r from-black to-gray-600 text-black;
+    @apply shadow-md shadow-gray-700 rounded-xl uppercase bg-gradient-to-r from-slate-700 to-gray-600 text-black;
   }
 }

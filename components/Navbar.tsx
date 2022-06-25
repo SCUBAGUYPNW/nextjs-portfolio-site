@@ -5,6 +5,8 @@ import React, { useState, useEffect } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { AiOutlineMail } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+import headerLogo from "../public/assets/Headerlogo.png";
+import ads from "../public/assets/ads.png";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -53,22 +55,12 @@ const Navbar = () => {
     >
       <div className=" flex justify-between items-center w-full h-full px-2 2xl:px-16 md:mr-20 lg:mr-5">
         <Link href="/">
-          <Image
-            src="/../public/assets/ads.png"
-            alt="ADS"
-            width="75"
-            height="75"
-          />
+          <Image src={ads} alt="ADS" width="75" height="75" />
         </Link>
         <div>
           <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
             <div className="md:hidden lg:flex bg-current rounded-lg shadow-lg shadow-slate-200 pb-2 pr-2 lg:mr-0 2xl:mr-5 ml-10">
-              <Image
-                src="/../public/assets/Headerlogo.png"
-                alt="ADS"
-                width="1000"
-                height="50"
-              />
+              <Image src={headerLogo} alt="ADS" width="1000" height="50" />
             </div>
             <Link href="/">
               <li className="  md:ml-5 lg:ml-20 text small uppercase hover:border-b">
@@ -116,12 +108,7 @@ const Navbar = () => {
           <div>
             <div className="flex w-full items-center justify-between">
               <Link href="/">
-                <Image
-                  src="/../public/assets/ads.png"
-                  alt="ADS"
-                  width="45"
-                  height="45"
-                />
+                <Image src={ads} alt="ADS" width="45" height="45" />
               </Link>
               <div
                 onClick={handleNav}

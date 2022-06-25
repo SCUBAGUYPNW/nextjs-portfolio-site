@@ -2,9 +2,6 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import projectOne from "../public/assets/projects/Project1.png";
-import projectTwo from "../public/assets/projects/Project2.png";
-import projectThree from "../public/assets/projects/Project3.png";
-import projectFour from "../public/assets/projects/Project4.png";
 import rpgTurnTracker from "../public/assets/projects/RPGTurnTracker.png";
 import ProjectItem from "./ProjectItem";
 
@@ -29,30 +26,6 @@ function Projects() {
             technologies="C++ Arduino Platform I/O"
             projectUrl="/project2"
           />
-          {/* <ProjectItem
-            title="Project 2"
-            backgroundImg={projectTwo}
-            technologies="JavaScript MERN CRUD2"
-            projectUrl="/project2"
-          /> */}
-          {/* <ProjectItem
-            title="Project 3"
-            backgroundImg={projectThree}
-            technologies="JavaScript MERN CRUD3"
-            projectUrl="/project3"
-          />
-          <ProjectItem
-            title="Project 4"
-            backgroundImg={projectFour}
-            technologies="JavaScript MERN CRUD4"
-            projectUrl="/project4"
-          />
-          <ProjectItem
-            title="RPG Turn Tracker"
-            backgroundImg={rpgTurnTracker}
-            technologies="C+ Arduino"
-            projectUrl="/rpgTurnTracker"
-          /> */}
         </div>
       </div>
     </div>

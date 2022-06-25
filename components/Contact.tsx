@@ -4,7 +4,6 @@ import contactMe from "../public/assets/contact/contactme.webp";
 import { AiOutlineMail } from "react-icons/ai";
 import Link from "next/link";
 import { FaGithub, FaLinkedinIn, FaReacteurope } from "react-icons/fa";
-import { BsFillPersonLinesFill } from "react-icons/bs";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 
 const Contact = () => {
@@ -41,7 +40,9 @@ const Contact = () => {
                 <div>
                   <div className="flex items-left py-4">
                     <div className="ml-3 mr-2 rounded-full bg-zinc-500 shadow-md shadow-black p-6 cursor-pointer hover:scale-105 ease-in duration-300">
-                      <FaLinkedinIn />
+                      <a href="https://www.linkedin.com/in/mitchel-hall-software-dev/">
+                        <FaLinkedinIn />
+                      </a>
                     </div>
                     <div className="ml-2 rounded-full bg-zinc-500 shadow-md shadow-black p-6 cursor-pointer hover:scale-105 ease-in duration-300">
                       <a href="https://github.com/SCUBAGUYPNW">

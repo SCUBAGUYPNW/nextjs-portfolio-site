@@ -1,7 +1,7 @@
 import React from "react";
 import { AiOutlineMail } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
-import { BsFillPersonLinesFill } from "react-icons/bs";
+
 const Main = () => {
   return (
     <div id="home" className="w- full h-screen text-center">
